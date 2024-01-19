@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:kgaliatsos.github.io",
+  "verificationMethod": [
+    {
+      "id": "did:web:kgaliatsos.github.io#owner",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:kgaliatsos.github.io",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "secp256k1",
+        "x": "4fb685385a0a1cbe064f0509ed07700a153e482263ac8d379d7c1e8855547217",
+        "y": "d2135b513a7a8a9a4c682a75430b16608a14c8ce3b146c95b64e18f7152006ec"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:kgaliatsos.github.io#owner"
+  ],
+  "assertionMethod": [
+    "did:web:kgaliatsos.github.io#owner"
+  ]
+}
