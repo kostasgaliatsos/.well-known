@@ -3,24 +3,24 @@
     "https://www.w3.org/ns/did/v1",
     "https://w3id.org/security/suites/jws-2020/v1"
   ],
-  "id": "did:web:kgaliatsos.github.io",
+  "id": "did:web:kostasgaliatsos.github.io",
   "verificationMethod": [
     {
-      "id": "did:web:kgaliatsos.github.io#owner",
+      "id": "did:web:kostasgaliatsos.github.io#owner",
       "type": "JsonWebKey2020",
-      "controller": "did:web:kgaliatsos.github.io",
+      "controller": "did:web:kostasgaliatsos.github.io",
       "publicKeyJwk": {
         "kty": "EC",
         "crv": "secp256k1",
-        "x": "4fb685385a0a1cbe064f0509ed07700a153e482263ac8d379d7c1e8855547217",
-        "y": "d2135b513a7a8a9a4c682a75430b16608a14c8ce3b146c95b64e18f7152006ec"
+        "x": "691c8c68b8853a45dee7a7b39eb0bf1e1fa6e6e3fdffd1f9c56070acf8afcf78",
+        "y": "2b1621c793a70674a17c9bed4c4a36ff685e74e87cb3d389797b83fc10e241ee"
       }
     }
   ],
   "authentication": [
-    "did:web:kgaliatsos.github.io#owner"
+    "did:web:kostasgaliatsos.github.io#owner"
   ],
   "assertionMethod": [
-    "did:web:kgaliatsos.github.io#owner"
+    "did:web:kostasgaliatsos.github.io#owner"
   ]
 }
