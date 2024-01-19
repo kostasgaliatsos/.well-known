@@ -6,7 +6,7 @@
   "id": "did:web:kostasgaliatsos.github.io",
   "verificationMethod": [
     {
-      "id": "did:web:kostasgaliatsos.github.io#owner",
+      "id": "did:web:kostasgaliatsos.github.io",
       "type": "JsonWebKey2020",
       "controller": "did:web:kostasgaliatsos.github.io",
       "publicKeyJwk": {
@@ -18,9 +18,9 @@
     }
   ],
   "authentication": [
-    "did:web:kostasgaliatsos.github.io#owner"
+    "did:web:kostasgaliatsos.github.io"
   ],
   "assertionMethod": [
-    "did:web:kostasgaliatsos.github.io#owner"
+    "did:web:kostasgaliatsos.github.io"
   ]
 }
